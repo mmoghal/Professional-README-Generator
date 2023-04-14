@@ -50,3 +50,63 @@ inquirer
       message: 'Provide guidelines for contributing to your project:',
     },
     {
+        type: 'input',
+        name: 'tests',
+        message: 'Provide instructions for running tests for your project:',
+      },
+      {
+        type: 'input',
+        name: 'github',
+        message: 'What is your GitHub username?',
+      },
+      {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email address?',
+      },
+    ])
+    .then((answers) => {
+      // Generate the README file using the user's input
+      const readme = `# ${answers.title}
+  
+  ${answers.description}
+  
+  ## Table of Contents
+  
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
+  
+  ## Installation
+  
+  ${answers.installation}
+  
+  ## Usage
+  
+  ${answers.usage}
+  
+  ## License
+  
+  This project is licensed under the ${answers.license} license.
+  
+  ## Contributing
+  
+  ${answers.contributing}
+  
+  ## Tests
+  
+  ${answers.tests}
+  
+  ## Questions
+  
+  For any questions or feedback, please contact me at ${answers.email}. You can also visit my [GitHub profile](https://github.com/${answers.github}).`;
+  
+      // Write the README file to disk
+      fs.writeFile('README.md', readme, (err) =>
+        err ? console.error(err) : console.log('README created!')
+      );
+    });
+  
