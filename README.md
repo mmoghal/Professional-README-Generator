@@ -61,4 +61,4 @@ This will prompt you to enter information about your project. Once you have prov
   
   ## Questions
   
-  For any questions or feedback, please contact me at mmoghal@gmail.com. You can also visit my [GitHub profile](https://github.com/mmoghal).
+  For any questions or feedback, please contact me at mmoghal29@gmail.com. You can also visit my [GitHub profile](https://github.com/mmoghal).
