@@ -12,6 +12,8 @@ This is a command-line application that generates a README file for a new projec
 
 .   Contributing
 
+.   Tests
+
 .   Questions
 
 ## Installation
@@ -51,6 +53,13 @@ Contributions to this project are welcome. To contribute, follow these steps:
 4.  Push your changes to your fork.
 
 5.  Submit a pull request to this repository with a description of your changes.
+
+## Tests
+
+To run the tests for this application, navigate to the root directory of the project in your terminal and run the following command:
+
+npm test
+
 
 ## Questions
 
