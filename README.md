@@ -33,10 +33,15 @@ To run the application, navigate to the root directory of the project in your te
   node index.js
 
 This will prompt you to enter information about your project. Once you have provided all the necessary information, a README file will be generated in the root directory of the project.
-  
+
+Please visit the following link to watch a walkthrough video demonstrating the functionality of the application:[DeployedApplication](https://drive.google.com/file/d/15O5U6yqKWHlzEBU73JjcxOnKmPdHowOS/view)
+
   ## License
   
   This project is licensed under the MIT license.
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
   
   ## Contributing
   
